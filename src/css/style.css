@@ -171,7 +171,6 @@ nav a{
 
 article{
     flex: 1;
-    
     margin: 10px;
 }
 
@@ -370,9 +369,7 @@ footer{
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
-        margin-bottom: 130px;
-        
-      
+        margin-bottom: 130px;      
     }
     
     .column{
@@ -444,7 +441,12 @@ footer{
     
     }
     
-    
-    
+    article{
+        flex: 1;
+        min-width: 25px;
+        margin: 10px;
     }
+    
+}
+    
     
