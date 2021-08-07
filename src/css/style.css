@@ -17,7 +17,7 @@ header{
 }
 
 .container{
-    width: 900px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -63,7 +63,7 @@ nav a{
 
 #banner-pet{
     background-image: url(../assets/images/banner2.jpg);
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -72,7 +72,6 @@ nav a{
 }
 
 .column{
-    width: 100%;
     display: flex;
     flex-direction: column;
     
@@ -139,15 +138,79 @@ nav a{
 }
 
 
+/****************Section 2*********************************/
+
+
+#geral-pet{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#geral-pet section{
+    flex: 2;
+}
+
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text{
+    padding-left: 10px ;
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    
+    margin: 10px;
+}
+
+article .thambnail img{
+    width: 100%;
+    height: auto;
+    
+}
+
+article .pet-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+article .pet-resume{
+    color: #000;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+
+
+#geral-pet aside{
+    flex: 1;
+
+
+}
 /******************Responsividade********************/
 
 /********************Header*********************************/
 @media(max-width: 710px){
 
-    .container{
-        
-        flex-direction: column;
-    }
+ 
     .logo{
         display: none;
     }
@@ -164,4 +227,3 @@ nav a{
 }
 
 /**************************Section**********************************/
-
