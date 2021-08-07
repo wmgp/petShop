@@ -358,4 +358,94 @@ footer{
 
 }
 
-/**************************Section**********************************/
+
+@media(max-width:350px){
+
+
+    #banner-pet{
+        background-image: url(../assets/images/banner2.jpg);
+        height: 200px;
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+    
+    .column{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .head-banner{
+        flex: 1;
+    }
+    
+    .title-top{
+        width: 300px;
+    }
+    
+    .head-banner h1{
+        font-size: 50px;
+        
+    }
+    
+    
+    
+    .end-banner{
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    
+    .banner-1{
+        flex:1;
+        padding-left: 10px ;
+    }
+    
+    .title-b1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .title-b1 h2{
+        width: 200px;
+        font-size: 15px;
+    }
+    .resume{
+        text-align: left;
+        font-size: 12px;
+        
+    }
+    
+    
+    
+    
+    .banner-2{
+        flex:1;
+        padding-right: 10px;
+    }
+    
+    .title-b2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .title-b2 h2{
+        width: 200px;
+        font-size: 15px;
+    }
+    
+    .resume-2{
+        text-align: right;
+        font-size: 12px;
+    
+    }
+    
+    
+    
+    }
+    
