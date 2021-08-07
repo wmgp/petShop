@@ -3,6 +3,10 @@
     src: url(../assets/fontes/Tangerine-Regular.ttf);
 }
 
+:root{
+    --font-size-h1:clamp(1rem, 10.0vw, 4rem);
+}
+
 *{box-sizing: border-box;}
 
 body{
@@ -78,7 +82,8 @@ nav a{
     
 }
 
-/*****************************************************/
+
+
 .head-banner{
     flex: 1;
 }
@@ -88,10 +93,12 @@ nav a{
 }
 
 .head-banner h1{
-    font-size: 50px;
+    font-size: var(--font-size-h1);
     
 }
-/*******************************************************/
+
+
+
 .end-banner{
     height: 150px;
     display: flex;
@@ -99,22 +106,41 @@ nav a{
 
 .banner-1{
     flex:1;
+    padding-left: 10px ;
 }
+
+.title-b1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title-b1 h2{
+    width: 200px;
+}
+.resume{
+    text-align: left;
+}
+
+
+
 
 .banner-2{
     flex:1;
+    padding-right: 10px;
 }
 
-.end-banner h2{
-    padding: 20px;
-}
-.resume{
-    padding: 0px 20px;
-    text-align: justify;
+.title-b2 {
+    display: flex;
+    justify-content: flex-end;
 }
 
+.title-b2 h2{
+    width: 200px;
+}
 
-
+.resume-2{
+    text-align: right;
+}
 
 
 /******************Responsividade********************/
