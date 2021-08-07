@@ -358,18 +358,18 @@ footer{
 }
 
 
-@media(max-width:350px){
+@media (max-width:350px){
 
 
     #banner-pet{
         background-image: url(../assets/images/banner2.jpg);
-        height: 200px;
+        height: 400px;
         background-position: center;
         background-size: 40%;
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
-        margin-bottom: 130px;      
+        
     }
     
     .column{
@@ -446,6 +446,28 @@ footer{
         min-width: 25px;
         margin: 10px;
     }
+
+
+    .widget-title{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .widget-title-text{
+        font-size: 15px;
+
+    }
+
+
+article .pet-title{
+    font-size: 15px;
+}
+
+
+article .pet-resume{
+    font-size: 10px;
+    
+}
     
 }
     
