@@ -3,10 +3,6 @@
     src: url(../assets/fontes/Tangerine-Regular.ttf);
 }
 
-:root{
-    --font-size-h1:clamp(1rem, 10.0vw, 4rem);
-}
-
 *{box-sizing: border-box;}
 
 body{
@@ -93,7 +89,7 @@ nav a{
 }
 
 .head-banner h1{
-    font-size: var(--font-size-h1);
+    font-size: 50px;
     
 }
 
