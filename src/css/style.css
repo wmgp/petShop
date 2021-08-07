@@ -370,13 +370,14 @@ footer{
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
-        margin-bottom: 300px;
+        margin-bottom: 130px;
+        
+      
     }
     
     .column{
         display: flex;
         flex-direction: column;
-        
     }
     
     .head-banner{
@@ -398,7 +399,7 @@ footer{
         flex-wrap: wrap;
        
     }
-    
+
     .banner-1{
         flex:1;
         padding-left: 10px ;
